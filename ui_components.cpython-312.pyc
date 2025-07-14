@@ -1,0 +1,29 @@
+:60] Running COM server within the Windows Service
+[12160:15304:0711/112931.593:VERBOSE2:chrome\updater\app\app_server.cc:58] ModeCheck
+[12160:15304:0711/112931.593:VERBOSE2:chrome\updater\prefs.cc:89] CreateGlobalPrefsInternal
+[12160:15304:0711/112931.593:VERBOSE1:chrome\updater\prefs.cc:137] UpdaterPrefsImpl (global): C:\Program Files (x86)\Google\GoogleUpdater
+[12160:15304:0711/112931.593:VERBOSE2:chrome\updater\app\app_server.cc:71] This version: 140.0.7272.0, active version: 140.0.7272.0
+[12160:15304:0711/112931.593:VERBOSE1:chrome\updater\win\setup\setup_util.cc:263] AreComInterfacesPresent: scope: System: is_internal: 1
+[12160:15304:0711/112931.593:VERBOSE2:chrome\updater\win\setup\setup_util.cc:284] AreComInterfacesPresent: all interfaces present
+[12160:15304:0711/112931.593:VERBOSE2:chrome\updater\prefs.cc:203] CreateLocalPrefs
+[12160:15304:0711/112931.593:VERBOSE1:chrome\updater\prefs.cc:137] UpdaterPrefsImpl (local): C:\Program Files (x86)\Google\GoogleUpdater\140.0.7272.0
+[12160:15304:0711/112931.593:VERBOSE1:chrome\updater\prefs.cc:142] ~UpdaterPrefsImpl: C:\Program Files (x86)\Google\GoogleUpdater
+[12160:16860:0711/112931.596:VERBOSE2:chrome\updater\util\win_util.cc:1588] updater::UpdaterInternalImpl::RuntimeClassInitialize: COM client pid for this COM server: 1116
+[12160:15304:0711/112931.601:VERBOSE2:chrome\updater\app\app_server_win.cc:300] Starting task, Microsoft::WRL::Module count: 2
+[12160:15304:0711/112931.601:VERBOSE1:chrome\updater\update_service_internal_impl.cc:25] Run
+[12160:15304:0711/112931.601:VERBOSE1:chrome\updater\ipc\update_service_proxy_win.cc:1090] RunPeriodicTasks
+[16620:16984:0711/112931.613:VERBOSE1:chrome\updater\updater.cc:316] Version: 140.0.7272.0, opt, x86_64, command line: "C:\Program Files (x86)\Google\GoogleUpdater\140.0.7272.0\updater.exe" --system --windows-service --service=update
+[16620:16984:0711/112931.613:VERBOSE1:chrome\updater\updater.cc:319] OS version: 10.0.19045.5965, System uptime (seconds): 5603, parent pid: 804
+[7904:15596:0711/112931.627:VERBOSE1:chrome\updater\updater.cc:316] Version: 140.0.7272.0, opt, x86_64, command line: "C:\Program Files (x86)\Google\GoogleUpdater\140.0.7272.0\updater.exe" --crash-handler --system "--database=C:\Program Files (x86)\Google\GoogleUpdater\140.0.7272.0\Crashpad" --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=140.0.7272.0 "--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater.log" --initial-client-data=0x264,0x268,0x26c,0x240,0x270,0x7ff6099c1a78,0x7ff6099c1a84,0x7ff6099c1a90
+[7904:15596:0711/112931.627:VERBOSE1:chrome\updater\updater.cc:319] OS version: 10.0.19045.5965, System uptime (seconds): 5603, parent pid: 16620
+[16620:16984:0711/112931.628:VERBOSE1:chrome\updater\crash_reporter.cc:120] Crash handler launched and ready.
+[16620:16984:0711/112931.628:VERBOSE1:chrome\updater\crash_client.cc:106] Found 0 completed crash reports
+[16620:16984:0711/112931.628:VERBOSE1:chrome\updater\crash_client.cc:124] Found 0 pending crash reports
+[16620:16984:0711/112931.628:VERBOSE2:chrome\updater\usage_stats_permissions_win.cc:77] usage stats enabled by app {8a69d345-d564-463c-aff1-a69d9e530f96}
+[16620:16984:0711/112931.630:VERBOSE1:chrome\updater\updater.cc:90] Crash reporting initialized.
+[16620:16984:0711/112931.631:VERBOSE1:chrome\updater\updater.cc:145] IsUserAdmin: 1, IsUserNonElevatedAdmin: 0, IsUACOn: 1, IsElevatedWithUACOn: 1, LUA: 1
+[16620:17760:0711/112931.641:VERBOSE2:chrome\updater\app\server\win\updater_service_delegate.cc:60] Running COM server within the Windows Service
+[16620:17760:0711/112931.641:VERBOSE2:chrome\updater\app\app_server.cc:58] ModeCheck
+[16620:17760:0711/112931.641:VERBOSE2:chrome\updater\prefs.cc:89] CreateGlobalPrefsInternal
+[16620:17760:0711/112931.641:VERBOSE1:chrome\updater\prefs.cc:137] UpdaterPrefsImpl (global): C:\Program Files (x86)\Google\GoogleUpdater
+[16620:17760:0711/112931.641:VERBOS
